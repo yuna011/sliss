@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 6rem;
+    background: #98B9C3;
+    i{
+        font-size: 2.5rem;
+        color: #fff;
+    }
+}
+.navIcon{
+    display: flex;
+    gap: 3rem;
+}
+
+/* footer */
+footer{
+    background: #21444f;
+}
+.footerWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 7.2rem 12rem 1.8rem 12rem;
+}
+.footerLink{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.6rem;
+}
+.flex{
+    display: flex;
+    gap: 2rem;
+    i{
+        font-size: 2.4rem;
+    }
+}
+.copy{
+    margin: 1rem 0;
+    text-align: center;
+    color: #fff;
+}
