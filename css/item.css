@@ -1,0 +1,35 @@
+.banner{
+    background: #21444f;
+    img{
+        width: 100vw;
+        padding: 2rem;
+    }
+}
+.itemWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8rem;
+    margin: 20rem 0 4.5rem;
+    img{
+        border-radius: 10px;
+    }
+}
+.itemName{
+    font-size: 3.2rem;
+}
+.shopping{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 3rem;
+    a{ 
+        padding: 1.4rem 2.4rem;
+        border: 1px solid #222;
+        color: #222;
+    }
+    i{
+        font-size: 2.4rem;
+        color: #7A6F6F;
+    }
+}
